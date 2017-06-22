@@ -1,0 +1,188 @@
+load cv
+TRAIN_X.shape (504, 5, 48, 64, 1)
+TRAIN_Y.shape (504, 6)
+VAL_X.shape (72, 5, 48, 64, 1)
+VAL_Y.shape (72, 6)
+TEST_X.shape (72, 5, 48, 64, 1)
+TEST_Y.shape (72, 6)
+MEAN:  0.433395
+STD:  0.306322
+build graph train
+A (?, 5, 48, 64, 1)
+A (?, 3, 44, 60, 3)
+A (?, 3, 22, 30, 3)
+A (?, 1, 18, 26, 29)
+A (?, 1, 9, 13, 29)
+A (?, 3393)
+A (?, 6)
+build graph train
+A (?, 5, 48, 64, 1)
+A (?, 3, 44, 60, 3)
+A (?, 3, 22, 30, 3)
+A (?, 1, 18, 26, 29)
+A (?, 1, 9, 13, 29)
+A (?, 3393)
+A (?, 6)
+init vars
+---------- epoch 1 ----------
+mean_train_l 1.71916, mean_train_acc 0.305668
+mean_val_l 1.55808, mean_val_acc 0.277778
+mean_test_l 1.42756, mean_test_acc 0.444444
+t 0.895063
+es_epoch 1, es_train_acc 0.305668, es_val_acc 0.277778, es_test_acc 0.444444
+---------- epoch 2 ----------
+mean_train_l 1.12127, mean_train_acc 0.607287
+mean_val_l 1.38003, mean_val_acc 0.416667
+mean_test_l 1.20895, mean_test_acc 0.555556
+t 0.377303
+es_epoch 2, es_train_acc 0.607287, es_val_acc 0.416667, es_test_acc 0.555556
+---------- epoch 3 ----------
+mean_train_l 0.869352, mean_train_acc 0.712551
+mean_val_l 1.40059, mean_val_acc 0.472222
+mean_test_l 1.16812, mean_test_acc 0.513889
+t 0.379194
+es_epoch 3, es_train_acc 0.712551, es_val_acc 0.472222, es_test_acc 0.513889
+---------- epoch 4 ----------
+mean_train_l 0.782821, mean_train_acc 0.738866
+mean_val_l 1.40327, mean_val_acc 0.444444
+mean_test_l 1.29963, mean_test_acc 0.527778
+t 0.398569
+es_epoch 3, es_train_acc 0.712551, es_val_acc 0.472222, es_test_acc 0.513889
+---------- epoch 5 ----------
+mean_train_l 0.653048, mean_train_acc 0.785425
+mean_val_l 1.4161, mean_val_acc 0.458333
+mean_test_l 1.28266, mean_test_acc 0.5
+t 0.393166
+es_epoch 3, es_train_acc 0.712551, es_val_acc 0.472222, es_test_acc 0.513889
+---------- epoch 6 ----------
+mean_train_l 0.555523, mean_train_acc 0.82996
+mean_val_l 1.36322, mean_val_acc 0.527778
+mean_test_l 1.19675, mean_test_acc 0.527778
+t 0.352962
+es_epoch 6, es_train_acc 0.82996, es_val_acc 0.527778, es_test_acc 0.527778
+---------- epoch 7 ----------
+mean_train_l 0.494566, mean_train_acc 0.880567
+mean_val_l 1.37943, mean_val_acc 0.513889
+mean_test_l 1.14746, mean_test_acc 0.555556
+t 0.351982
+es_epoch 6, es_train_acc 0.82996, es_val_acc 0.527778, es_test_acc 0.527778
+---------- epoch 8 ----------
+mean_train_l 0.437822, mean_train_acc 0.902834
+mean_val_l 1.49889, mean_val_acc 0.444444
+mean_test_l 1.40742, mean_test_acc 0.513889
+t 0.353769
+es_epoch 6, es_train_acc 0.82996, es_val_acc 0.527778, es_test_acc 0.527778
+---------- epoch 9 ----------
+mean_train_l 0.377344, mean_train_acc 0.906883
+mean_val_l 1.4935, mean_val_acc 0.486111
+mean_test_l 1.40867, mean_test_acc 0.472222
+t 0.353147
+es_epoch 6, es_train_acc 0.82996, es_val_acc 0.527778, es_test_acc 0.527778
+---------- epoch 10 ----------
+mean_train_l 0.337724, mean_train_acc 0.937247
+mean_val_l 1.42342, mean_val_acc 0.527778
+mean_test_l 1.23608, mean_test_acc 0.513889
+t 0.353896
+es_epoch 6, es_train_acc 0.82996, es_val_acc 0.527778, es_test_acc 0.527778
+---------- epoch 11 ----------
+mean_train_l 0.285716, mean_train_acc 0.945344
+mean_val_l 1.45121, mean_val_acc 0.513889
+mean_test_l 1.27016, mean_test_acc 0.472222
+t 0.354699
+es_epoch 6, es_train_acc 0.82996, es_val_acc 0.527778, es_test_acc 0.527778
+---------- epoch 12 ----------
+mean_train_l 0.262168, mean_train_acc 0.955466
+mean_val_l 1.40333, mean_val_acc 0.541667
+mean_test_l 1.28776, mean_test_acc 0.527778
+t 0.353723
+es_epoch 12, es_train_acc 0.955466, es_val_acc 0.541667, es_test_acc 0.527778
+---------- epoch 13 ----------
+mean_train_l 0.226347, mean_train_acc 0.965587
+mean_val_l 1.53656, mean_val_acc 0.486111
+mean_test_l 1.42346, mean_test_acc 0.5
+t 0.353616
+es_epoch 12, es_train_acc 0.955466, es_val_acc 0.541667, es_test_acc 0.527778
+---------- epoch 14 ----------
+mean_train_l 0.197068, mean_train_acc 0.975709
+mean_val_l 1.51524, mean_val_acc 0.541667
+mean_test_l 1.35948, mean_test_acc 0.5
+t 0.354192
+es_epoch 14, es_train_acc 0.975709, es_val_acc 0.541667, es_test_acc 0.5
+---------- epoch 15 ----------
+mean_train_l 0.17795, mean_train_acc 0.979757
+mean_val_l 1.52474, mean_val_acc 0.541667
+mean_test_l 1.42231, mean_test_acc 0.486111
+t 0.35137
+es_epoch 14, es_train_acc 0.975709, es_val_acc 0.541667, es_test_acc 0.5
+---------- epoch 16 ----------
+mean_train_l 0.159982, mean_train_acc 0.981781
+mean_val_l 1.54652, mean_val_acc 0.541667
+mean_test_l 1.36783, mean_test_acc 0.513889
+t 0.352586
+es_epoch 14, es_train_acc 0.975709, es_val_acc 0.541667, es_test_acc 0.5
+---------- epoch 17 ----------
+mean_train_l 0.164294, mean_train_acc 0.975709
+mean_val_l 1.57866, mean_val_acc 0.555556
+mean_test_l 1.4736, mean_test_acc 0.555556
+t 0.354099
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 18 ----------
+mean_train_l 0.13704, mean_train_acc 0.98583
+mean_val_l 1.66583, mean_val_acc 0.513889
+mean_test_l 1.52076, mean_test_acc 0.5
+t 0.354207
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 19 ----------
+mean_train_l 0.12421, mean_train_acc 0.987854
+mean_val_l 1.65305, mean_val_acc 0.541667
+mean_test_l 1.4448, mean_test_acc 0.513889
+t 0.353008
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 20 ----------
+mean_train_l 0.102353, mean_train_acc 0.993927
+mean_val_l 1.74651, mean_val_acc 0.513889
+mean_test_l 1.56953, mean_test_acc 0.527778
+t 0.356564
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 21 ----------
+mean_train_l 0.090669, mean_train_acc 0.997976
+mean_val_l 1.75467, mean_val_acc 0.527778
+mean_test_l 1.55184, mean_test_acc 0.486111
+t 0.354438
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 22 ----------
+mean_train_l 0.0999896, mean_train_acc 0.987854
+mean_val_l 1.68085, mean_val_acc 0.541667
+mean_test_l 1.53258, mean_test_acc 0.513889
+t 0.352871
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 23 ----------
+mean_train_l 0.0871019, mean_train_acc 0.993927
+mean_val_l 1.84036, mean_val_acc 0.472222
+mean_test_l 1.82509, mean_test_acc 0.541667
+t 0.353941
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 24 ----------
+mean_train_l 0.0855608, mean_train_acc 0.991903
+mean_val_l 1.85968, mean_val_acc 0.527778
+mean_test_l 1.64841, mean_test_acc 0.5
+t 0.352422
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 25 ----------
+mean_train_l 0.0676599, mean_train_acc 1
+mean_val_l 1.82656, mean_val_acc 0.541667
+mean_test_l 1.66403, mean_test_acc 0.527778
+t 0.354017
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 26 ----------
+mean_train_l 0.0660227, mean_train_acc 0.995951
+mean_val_l 1.86524, mean_val_acc 0.541667
+mean_test_l 1.62668, mean_test_acc 0.541667
+t 0.351651
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556
+---------- epoch 27 ----------
+mean_train_l 0.0571615, mean_train_acc 0.997976
+mean_val_l 1.84365, mean_val_acc 0.555556
+mean_test_l 1.68463, mean_test_acc 0.541667
+t 0.35339
+es_epoch 17, es_train_acc 0.975709, es_val_acc 0.555556, es_test_acc 0.555556

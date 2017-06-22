@@ -1,0 +1,117 @@
+load cv
+TRAIN_X.shape (766, 5, 48, 64, 1)
+TRAIN_Y.shape (766, 6)
+VAL_X.shape (104, 5, 48, 64, 1)
+VAL_Y.shape (104, 6)
+TEST_X.shape (104, 5, 48, 64, 1)
+TEST_Y.shape (104, 6)
+MEAN:  0.48573
+STD:  0.31733
+build graph train
+A (?, 5, 48, 64, 1)
+A (?, 3, 44, 60, 3)
+A (?, 3, 22, 30, 3)
+A (?, 1, 18, 26, 29)
+A (?, 1, 9, 13, 29)
+A (?, 3393)
+A (?, 6)
+build graph train
+A (?, 5, 48, 64, 1)
+A (?, 3, 44, 60, 3)
+A (?, 3, 22, 30, 3)
+A (?, 1, 18, 26, 29)
+A (?, 1, 9, 13, 29)
+A (?, 3393)
+A (?, 6)
+init vars
+---------- epoch 1 ----------
+mean_train_l 1.25624, mean_train_acc 0.529178
+mean_val_l 0.851637, mean_val_acc 0.673077
+mean_test_l 0.883421, mean_test_acc 0.615385
+t 426.853
+es_epoch 1, es_train_acc 0.529178, es_val_acc 0.673077, es_test_acc 0.615385
+---------- epoch 2 ----------
+mean_train_l 0.619431, mean_train_acc 0.798408
+mean_val_l 0.455118, mean_val_acc 0.836538
+mean_test_l 0.430248, mean_test_acc 0.913462
+t 421.676
+es_epoch 2, es_train_acc 0.798408, es_val_acc 0.836538, es_test_acc 0.913462
+---------- epoch 3 ----------
+mean_train_l 0.436434, mean_train_acc 0.866048
+mean_val_l 0.455527, mean_val_acc 0.826923
+mean_test_l 0.410733, mean_test_acc 0.875
+t 420.705
+es_epoch 2, es_train_acc 0.798408, es_val_acc 0.836538, es_test_acc 0.913462
+---------- epoch 4 ----------
+mean_train_l 0.350469, mean_train_acc 0.892573
+mean_val_l 0.420007, mean_val_acc 0.855769
+mean_test_l 0.439005, mean_test_acc 0.894231
+t 418.284
+es_epoch 4, es_train_acc 0.892573, es_val_acc 0.855769, es_test_acc 0.894231
+---------- epoch 5 ----------
+mean_train_l 0.285896, mean_train_acc 0.909814
+mean_val_l 0.359309, mean_val_acc 0.884615
+mean_test_l 0.334316, mean_test_acc 0.894231
+t 433.646
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 6 ----------
+mean_train_l 0.23789, mean_train_acc 0.931034
+mean_val_l 0.386115, mean_val_acc 0.855769
+mean_test_l 0.37876, mean_test_acc 0.884615
+t 426.034
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 7 ----------
+mean_train_l 0.203945, mean_train_acc 0.932361
+mean_val_l 0.496998, mean_val_acc 0.817308
+mean_test_l 0.451198, mean_test_acc 0.836538
+t 427.702
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 8 ----------
+mean_train_l 0.178225, mean_train_acc 0.945623
+mean_val_l 0.43631, mean_val_acc 0.836538
+mean_test_l 0.470011, mean_test_acc 0.826923
+t 423.016
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 9 ----------
+mean_train_l 0.150785, mean_train_acc 0.956233
+mean_val_l 0.447413, mean_val_acc 0.817308
+mean_test_l 0.404941, mean_test_acc 0.855769
+t 436.237
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 10 ----------
+mean_train_l 0.131939, mean_train_acc 0.969496
+mean_val_l 0.471377, mean_val_acc 0.826923
+mean_test_l 0.421196, mean_test_acc 0.865385
+t 435.888
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 11 ----------
+mean_train_l 0.122003, mean_train_acc 0.976127
+mean_val_l 0.504339, mean_val_acc 0.817308
+mean_test_l 0.514287, mean_test_acc 0.817308
+t 430.18
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 12 ----------
+mean_train_l 0.111808, mean_train_acc 0.965517
+mean_val_l 0.519988, mean_val_acc 0.807692
+mean_test_l 0.430359, mean_test_acc 0.826923
+t 425.109
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 13 ----------
+mean_train_l 0.0833649, mean_train_acc 0.982759
+mean_val_l 0.520199, mean_val_acc 0.807692
+mean_test_l 0.455533, mean_test_acc 0.855769
+t 434.814
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 14 ----------
+mean_train_l 0.0747085, mean_train_acc 0.988064
+mean_val_l 0.536779, mean_val_acc 0.855769
+mean_test_l 0.485149, mean_test_acc 0.798077
+t 430.355
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+---------- epoch 15 ----------
+mean_train_l 0.0694813, mean_train_acc 0.990716
+mean_val_l 0.533269, mean_val_acc 0.817308
+mean_test_l 0.571309, mean_test_acc 0.817308
+t 430.238
+es_epoch 5, es_train_acc 0.909814, es_val_acc 0.884615, es_test_acc 0.894231
+
