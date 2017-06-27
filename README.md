@@ -1,4 +1,4 @@
-#Byeon's FER3DCNN Tensorflow Implmentation
+# Byeon's FER3DCNN Tensorflow Implmentation
 
 According to the paper "Facial Expression Recognition Using 3D Convolutional Neural Network", the repository realizes the algorithm with Tensorflow.
 
